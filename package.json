@@ -2,7 +2,10 @@
   "name": "n2pm",
   "version": "1.0.0",
   "description": "N2pm is Not a Node Package manager",
-  "main": "index.js",
+  "bin": {
+    "n2pm": "n2pm"
+  },
+  "main": "lib/n2pm.js",
   "author": "Dongsu Jang <iolothebard@gmail.com",
   "license": "MIT",
   "dependencies": {

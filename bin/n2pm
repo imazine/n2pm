@@ -1,6 +1,8 @@
+#!/usr/bin/env node
+
 'use strict';
 
-var n2pm = require('./lib/n2pm');
+var n2pm = require('../lib/n2pm');
 
 var done = function (err) {
     err && console.error(err);
